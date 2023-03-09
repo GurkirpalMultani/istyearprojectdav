@@ -76,7 +76,7 @@ li.active{
 
 
 .active {
-
+ background-color: #000;
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
           animation: scaleAnim 1s ease-in-out;
