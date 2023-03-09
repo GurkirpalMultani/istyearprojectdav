@@ -101,7 +101,9 @@ section {
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
-
+li.active{
+  background-color: red;
+}
 .active {
   background-color: red;
   display: block;
