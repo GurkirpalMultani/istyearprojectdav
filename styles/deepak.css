@@ -1,0 +1,24 @@
+body 
+{
+    background-color: red;
+}
+
+p{
+    color: green;
+    display: block;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+li {
+text-align: center;
+    position: relative;
+    text-decoration: line-through;
+    padding: 10px;
+    
+}
+
+ul{
+   background-color: green;
+}
