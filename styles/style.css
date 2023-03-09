@@ -295,6 +295,8 @@ li a {
 
 li a:hover {
   background-color: rgb(152, 29, 29);
+  border-radius: 25px;
+
   
 }
 
