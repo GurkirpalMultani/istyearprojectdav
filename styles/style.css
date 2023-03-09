@@ -39,10 +39,26 @@ background-image: url('pexels-hasan-albari-1229861.jpg');
  -ms-user-select: none;
  user-select: none;
 background-size: cover;
-filter: blur(8px);
-  -webkit-filter: blur(8px);
+
 
 }
+
+.bg-image {
+
+  background-image: url('pexels-hasan-albari-1229861.jpg');
+
+ 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 a {
   display: inline-block;
