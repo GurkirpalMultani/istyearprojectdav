@@ -49,6 +49,13 @@ a {
   letter-spacing: 2px;
 
 }
+
+.notheader{
+  height: 100px;
+}
+notheader{
+  height: 100px;
+}
 header.notheader{
  
     height: 100vh;
@@ -311,8 +318,7 @@ caption:hover{
 .container
 {
   margin-top: -540px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 .container-box{
 display: grid;
