@@ -38,6 +38,7 @@ background-image: url('pexels-hasan-albari-1229861.jpg');
  -moz-user-select: none;
  -ms-user-select: none;
  user-select: none;
+background-size: cover;
 }
 
 a {
