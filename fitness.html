@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fitness club</title>
+
+	
+	<style>
+		body{
+			font-family: 'Lora', serif;
+	color:rgb(242, 242, 242);
+	margin:0px;
+	padding:0px;
+    background-color: rgb(23, 22, 21);
+        }
+.left{
+	display:inline-block;
+	position:absolute;
+	left:28px;
+	top:35px;
+
+
+}
+.prg {
+  display: block;
+  -webkit-animation: scaleAnim 1s ease-in-out;
+          animation: scaleAnim 1s ease-in-out;
+}
+
+@-webkit-keyframes scaleAnim {
+  0% {
+    -webkit-transform: translateY(-100%) scaleY(0);
+            transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0%) scaleY(1);
+            transform: translateY(0%) scaleY(1);
+  }
+}
+
+@keyframes scaleAnim {
+  0% {
+    -webkit-transform: translateY(-100%) scaleY(0);
+            transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0%) scaleY(1);
+            transform: translateY(0%) scaleY(1);
+  }
+}
+
+.left div{
+	line-height:19px;
+	font-size:26px;
+	text-align:center;
+}
+.left img{
+	width:105px;
+	filter:invert(100%);
+left: 292px;
+}
+.mid{
+	display:block;
+	width:33%;
+	margin:29px auto;
+}
+.right{
+	display:inline-block;
+	position:absolute;
+	right:34px;
+	top:13px;
+}
+
+.btn{
+	margin:0px 9px;
+	background-color:black;
+	color:white;
+	padding:4px 14px;
+	border:2px solid grey;
+	border-radius:10px;
+	font-size:13px;
+	cursor:pointer;
+    animation-name: initial;
+  animation-duration: 4s;
+}
+.btn:hover{
+	background-color:grey;
+}
+.container{
+	border:2px solid white;
+	margin:116px 400px;
+	padding:75px;
+	width:33%;
+	border-radius:28px;
+    
+}
+.form-group input{
+	text-align:center;
+	display:block;
+	width:508px;
+	padding:1px;
+	border:2px solid black;
+	margin:11px auto;
+	font-size:25px;
+	border-radius:8px;
+}
+.container h1{
+	text-align:center;
+}
+
+
+.container button{
+	display:block;
+	width:74%;
+	margin:20px auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+
+
+
+li2 a{
+  display: block;
+  color: #6ba2d2;
+  padding: 25px 15px;
+  text-align: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(152, 29, 29);
+}
+
+
+	</style>
+</head>
+<body>
+	<navbar>
+		<ul>
+		   <li> <a href="index.html">Home</a>
+			  <li> <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+		   </li>
+		   <li> <a href="tables.html">Class notes</a> </li>
+	 
+	   <li> <a href="fitness.html"> Our fitness club</a></li>
+		</ul>
+		<ul2>
+		   <li2> <a href="login.html"> <b>click on me </b></a></li2>
+		</ul2>
+	 
+	 </navbar>
+	<header class="header">
+		<div class="left">
+           <img src="/styles/hihi-removebg-preview.png">
+           <div>Fitness club</div>
+		</div>
+		
+		<div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email Us</button>
+        </div>
+	</header>
+
+	<div class="container">
+		<img src="/styles/fit.jpg" height="390px" width="490px" align-items="center">
+		<h1>JOIN THE BEST GYM NOW!!</h1>
+        <h6>GYM ARE NOT FOR GAYS</h6>
+		<form action="thankyou.html">
+			<div class="form-group">
+			<input type="text" name="" placeholder="Enter your name" >
+		    </div>
+
+		    <div class="form-group">
+			<input type="number" name="" placeholder="Enter your Age">
+		    </div>
+
+		    <div class="form-group">
+			<!-- <input type="text" name="" placeholder="Enter your Gender"> -->
+            <div data-role="main" class="ui-content">
+                <form method="post" action="/action_page_post.php">
+                  <fieldset data-role="controlgroup">
+                  <legend>Choose your gender:</legend>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                  </fieldset>
+		    </div>
+
+		    <div class="form-group">
+			<input type="text" name="" placeholder="Enter your Locality">
+		    </div>
+
+		    <button class="btn">Submit</button>
+		</form>
+
+	</div>
+
+</body>
+</html>
