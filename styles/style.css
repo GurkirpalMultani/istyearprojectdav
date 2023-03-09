@@ -29,7 +29,7 @@
 
 }
 body {
- background-color: #000;
+background-image: url(/img/pexels-hasan-albari-1229861.jpg);
   margin: 0px;
   color: var(--color-white);
   -webkit-transition: all .4s ease-in-out;
