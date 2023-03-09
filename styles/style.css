@@ -15,7 +15,7 @@
   --color-grey0: #ebd4d4;
   --color-grey1: #bed4ed;
   --color-grey2: #3975bd;
-  --color-grey3: #258ddc;
+  --color-grey3: #00365f;
   --color-grey4: #6ba2d2;
   --color-grey5: #5982c8;
   --color-grey6: #6f8d9d;
@@ -223,7 +223,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
