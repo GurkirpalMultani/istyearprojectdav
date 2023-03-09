@@ -291,6 +291,7 @@ caption:hover{
 display: grid;
 padding: 129px;
 right: 0px;
+float: right;
 }
 
 .container-box2{
