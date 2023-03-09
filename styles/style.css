@@ -253,50 +253,16 @@ li a:hover {
 
 
 
-td{
-  background-color: #000;
-  
-}
-
-
-th{
-  background-color: aqua;
-}
-
-
-table{
-
-  align-items: center;
-  position: relative;
-  background-color: #000;
-padding: 12px;
-  border-color: #3975bd;
 
 
 
-    border: 1px;
-    margin-left: auto;
-  margin-right:auto;
-  
-  
-  
-  /* scrollbar: width 9px; */
-  }
-  
 
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-table:hover{
 
-  border-color: violet;
-  border-width: 10px;
-  background-color: #b7ecbc;
-
-  
-}
 
 caption{
   padding: 5px;
@@ -316,13 +282,7 @@ caption:hover{
 }
 
 
-th:hover{
-  background-color: rgb(30, 89, 141);
-}
 
-td:hover{
-  background-color: aqua;
-}
 
 .container-box{
 display: grid;
