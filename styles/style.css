@@ -256,6 +256,11 @@ li2 a{
   text-align: right;
 
 }
+
+li{
+  margin-right: 70px;
+
+}
 li a {
   display: block;
   color: white;
