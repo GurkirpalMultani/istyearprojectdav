@@ -147,6 +147,8 @@ section {
 
 li.active{
   background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+
 }
 
 
