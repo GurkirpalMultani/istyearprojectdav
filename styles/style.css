@@ -236,14 +236,14 @@ li {
 li2 a{
   display: block;
   color: #6ba2d2;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-align: right;
 }
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 16px;
   text-decoration: none;
 }
 
@@ -251,12 +251,6 @@ li a {
 li a:hover {
   background-color: rgb(152, 29, 29);
 }
-
-
-
-
-
-
 
 
 
