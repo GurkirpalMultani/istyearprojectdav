@@ -44,8 +44,9 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  font-family: inherit;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 2px;
+
 }
 
 header {
