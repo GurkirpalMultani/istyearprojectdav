@@ -155,6 +155,8 @@ li.active{
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
           animation: scaleAnim 1s ease-in-out;
+          border-radius: 25px;
+
 }
 
 
