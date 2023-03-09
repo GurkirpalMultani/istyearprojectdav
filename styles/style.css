@@ -49,6 +49,11 @@ a {
   letter-spacing: 2px;
 
 }
+header notheader {
+  height: 100vh;
+  color: var(--color-white);
+  overflow: hidden;
+}
 
 header {
   height: 100vh;
