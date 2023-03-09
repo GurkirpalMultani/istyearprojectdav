@@ -70,18 +70,6 @@ section {
   background-color: var(--color-primary);
 }
 
-li.active{
-  background-color: red;
-}
-
-
-.active {
- background-color: #000;
-  display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-
 
 .sec1 {
   display: none;
@@ -114,6 +102,20 @@ li.active{
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
+
+li.active{
+  background-color: red;
+}
+
+
+.active {
+ background-color: #000;
+  display: block;
+  -webkit-animation: scaleAnim 1s ease-in-out;
+          animation: scaleAnim 1s ease-in-out;
+}
+
+
 
 .controlls .active-btn {
   background-color: var(--color-secondary) !important;
