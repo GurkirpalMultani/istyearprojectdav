@@ -103,6 +103,7 @@ section {
 }
 
 .active {
+  background-color: red;
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
           animation: scaleAnim 1s ease-in-out;
