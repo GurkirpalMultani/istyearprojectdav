@@ -90,7 +90,8 @@
 			padding: 75px;
 			width: 70%%;
 			border-radius: 28px;
-	
+			box-sizing: border-box;
+  resize: vertical;
 
 		}
 
@@ -120,6 +121,13 @@
 		li {
 			float: left;
 		}
+
+		@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 	</style>
 </head>
 
